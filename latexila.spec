@@ -1,11 +1,11 @@
 Summary:	Integrated LaTeX Environment for the GNOME Desktop
 Name:		latexila
-Version:	2.8.2
+Version:	2.8.3
 Release:	1
 License:	GPL v3
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/latexila/2.8/%{name}-%{version}.tar.xz
-# Source0-md5:	a76efc40fdd84b7b37e06f70c2aaa349
+# Source0-md5:	7025fabc4b5f56ddb7ec37b50ac9ea2c
 BuildRequires:	gtksourceview3-devel
 BuildRequires:	itstool
 BuildRequires:	pkg-config

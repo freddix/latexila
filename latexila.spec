@@ -1,13 +1,15 @@
 Summary:	Integrated LaTeX Environment for the GNOME Desktop
 Name:		latexila
-Version:	2.8.3
+Version:	2.9.0
 Release:	1
 License:	GPL v3
 Group:		X11/Applications
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/latexila/2.8/%{name}-%{version}.tar.xz
-# Source0-md5:	7025fabc4b5f56ddb7ec37b50ac9ea2c
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/latexila/2.9/%{name}-%{version}.tar.xz
+# Source0-md5:	b8db2c958886616bba022c3baba9fe39
 BuildRequires:	gtksourceview3-devel
+BuildRequires:	gtkspell3-devel >= 3.0.4
 BuildRequires:	itstool
+BuildRequires:	libgee06-devel
 BuildRequires:	pkg-config
 Requires(post,postun):	/usr/bin/gtk-update-icon-cache
 Requires(post,postun):	desktop-file-utils
